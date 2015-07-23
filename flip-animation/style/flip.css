@@ -1,0 +1,36 @@
+.container {
+  position: absolute;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-color: #eee;
+  text-align: center;
+}
+
+.face.back {
+  transform: rotateY(180deg);
+  background-color: #aaa;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+
+.container:hover .card {
+  transform: rotateY(180deg);
+}
+
