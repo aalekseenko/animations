@@ -1,0 +1,31 @@
+{
+  "name": "cards",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Jane Doe",
+  "license": "MIT",
+  "dependencies": {
+    "react": "~0.13.1",
+    "reflux": "~0.2.7"
+  },
+  "devDependencies": {
+    "babelify": "^5.0.4",
+    "browser-sync": "^2.8.0",
+    "browserify": "~9.0.7",
+    "exorcist": "^0.4.0",
+    "gulp": "^3.9.0",
+    "gulp-if": "^1.2.5",
+    "gulp-sass": "^2.0.4",
+    "gulp-util": "^3.0.6",
+    "reactify": "~1.1.0",
+    "require-dir": "^0.3.0",
+    "vinyl-source-stream": "~1.1.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build"
+  }
+}
